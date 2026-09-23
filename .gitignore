@@ -8,7 +8,7 @@
 /cmbuild/
 /build/
 /build32/
-/build64/
+/build_x64/
 /release/
 /release32/
 /release64/
@@ -20,6 +20,7 @@
 *.ninja
 .ninja*
 .dirstamp
+/cmake/.CMakeBuildNumber
 
 #xcode
 *.xcodeproj/
@@ -35,8 +36,7 @@ x64/
 ipch/
 GeneratedFiles/
 .moc/
-deps/bin
-deps/include/rtaudio
+.deps
 
 /other/
 
